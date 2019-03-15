@@ -1,0 +1,31 @@
+<div class="abc">
+  <h1>
+    Register now
+  </h1>
+      <fieldset>
+      <form class="container" [formGroup]="form" (ngSubmit)= "onSubmit(form.value)" >
+        User id:<input type="number" name="userid" placeholder="User id"
+        formControlName="userid"><br>
+        First Name:<input type="text" name="firstname" placeholder="firstname"
+        formControlName="firstname" required><br>
+        Last Name:<input type="text" name="lastname" placeholder="lastname"
+        formControlName="lastname"><br>
+        Password:<input type="password" name="pass" placeholder="Password"
+        formControlName="pass"><br>
+        Confirm Password:<input type="password" name="cpass" placeholder="Confirm Password"
+        formControlName="cpass"><br>
+        Mobile Number :<input type="text" name="mobilenumber" placeholder="mobilenumber"
+        formControlName="mobilenumber"><br>
+        Date of Birth:<input type="text" name="DOB" placeholder="dd/mm/yyyy"
+        formControlName="DOB"><br>
+        Address:<input type="text" name="address" placeholder="address"
+        formControlName="address"><br>
+        Opening Balance:<input type="number" name="balance" placeholder="Balance"
+        formControlName="balance"><br>
+        Aadhar Number:<input type="text" name="aadhar" placeholder="AadharNumber"
+        formControlName="aadhar"><br>
+      <input type="submit" value="SUBMIT"[disabled]="!form.valid">
+
+      </form>
+      </fieldset>
+</div>

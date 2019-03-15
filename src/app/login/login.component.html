@@ -1,0 +1,22 @@
+
+<div class="abc" *ngIf="disp1" ><fieldset >
+    <body class="img" background=".\assets\Images\login.jpg" alt="Image not available">
+  
+    
+<h1>
+  Login Page
+  </h1>
+  <hr>
+  
+ <b> Username:</b><input type="text" #t1><br>
+ <b> Password:</b><input type="password" #t2><br>
+  <button type="button" (click)="login(t1.value,t2.value)">Login</button>
+  <button type="button"  routerLink="signup">Signup</button>
+  <p>{{errormsg}}</p>
+</body></fieldset> 
+  </div>
+  <p *ngIf="disp">
+   
+    <slogin></slogin>
+  </p>
+ 

@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "fname": "Gurvinder",
+      "lname": "Singh",
+      "mob": 9105255000,
+      "dob": "25/11/1779",
+      "address": "benguluru",
+      "anum": 12345865,
+      "id": 123,
+      "pwd": "admin"
+    },
+    {
+      "fname": "vhj",
+      "lname": "jh",
+      "mob": "jhhjbv",
+      "dob": "hjbv",
+      "address": "jhbj",
+      "anum": "gjh",
+      "id": 567,
+      "pwd": "jhvv"
+    },
+    {
+      "fname": "Guri",
+      "lname": "j",
+      "mob": "12",
+      "dob": "25",
+      "address": "11",
+      "anum": "145102",
+      "id": 123456,
+      "pwd": "guris"
+    }
+  ]
+}
